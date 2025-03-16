@@ -28,6 +28,9 @@ const Cart = () => {
     alternatePhone: ''
   });
 
+
+  
+
   // Fetch cart items on component mount
   useEffect(() => {
     axios.get("http://localhost:4040/getcart")
